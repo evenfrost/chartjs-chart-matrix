@@ -24,7 +24,7 @@ export interface MatrixDataPoint {
   x: number | string;
   y: number | string;
   d?: number | string;
-  v: number;
+  v?: number;
 }
 
 declare module 'chart.js' {
